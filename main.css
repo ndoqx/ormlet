@@ -1,0 +1,45 @@
+:root {
+    --pastel-blue: #a2d2ff;
+    --pastel-green: #caffbf;
+    --pastel-pink: #ffafcc;
+    --pastel-yellow: #ffd6a5;
+    --pastel-violet: #bdb2ff;
+    --white: #ffffff;
+    --gray: #6c757d;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: var(--pastel-yellow);
+  }
+  
+  .card {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .card-left {
+    background-color: var(--pastel-blue);
+    padding: 2rem;
+  }
+  
+  .card-right {
+    background-color: var(--pastel-pink);
+  }
+  
+  .card-left h1 {
+    font-size: 2rem;
+    color: var(--gray);
+  }
+  
+  .card-left p {
+    font-size: 1rem;
+    color: var(--gray);
+  
